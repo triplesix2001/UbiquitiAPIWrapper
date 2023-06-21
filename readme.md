@@ -25,10 +25,10 @@ Module requires requests.  Do NOT use backups features as this does not work pro
     User has to be local superuser, not online account.
 
 Then you have to authenticate, this will automaticly set the CSRF Token
-to make it easier for custom requests.
+to make it easier for custom requests.  
     session.Authenticate()
 
-When doing requests this will format the response to only contain the actual data. Warning: SSL and TLS is disabled.
+When doing requests this will format the response to only contain the actual data.  **Warning: SSL and TLS is disabled.**
 
 ## Examples
 
@@ -61,5 +61,5 @@ When doing requests this will format the response to only contain the actual dat
 
 ## Other projects to check out
 
-PHP Client
+PHP Client:
 <https://github.com/Art-of-WiFi/UniFi-API-client>
