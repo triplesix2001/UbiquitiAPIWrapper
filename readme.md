@@ -8,12 +8,11 @@
 ## Recommendations
 
 I recommend just downloading the .py file and importing it that way.
-Module requires requests.
-Do NOT use backups features as this does not work properly.
+Module requires requests.  Do NOT use backups features as this does not work properly.
 
 ## Usage
 
-To first initate a session define a session object like this.
+    To first initate a session define a session object like this.
     session = Session(ipadress="192.168.1.1",
         port="443",
         username="username",
